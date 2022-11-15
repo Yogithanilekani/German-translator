@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Nanum+Gothic:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px;
+    --primary-color: #374151;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 10rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    color: white;
+}
+
+#translate{
+    color: #333333;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
