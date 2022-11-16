@@ -60,6 +60,7 @@ button {
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
+    color: black;
     border: 1px solid var(--black);
 }
 
