@@ -1,5 +1,5 @@
 # German-translator
- using vanillajs
+ using vanillajs<br>
 An app that converts English text into German.<br>
 <br>
 <b>Programming Language:</b><br>
